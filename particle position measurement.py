@@ -25,7 +25,16 @@ import matplotlib.pyplot as plt
 from ADCDACPi import ADCDACPi
 
         
-def stats_read(samples): # Read N samples of voltage data, do indicative stats.
+def stats_read(samples): # Read N samples of voltage data
+'''
+	Read from ADC and measure the position of the particle
+	
+Args:
+        samples: number of samples to collect
+Returns: 
+	time: An array of time data
+	position_data: An array contains the position of the particle corresponding to each time
+'''
 
     samples = max(3, samples) # Set minmum of 3 sample
 
