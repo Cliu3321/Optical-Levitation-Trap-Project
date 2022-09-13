@@ -2,13 +2,17 @@
 """
 Created on Mon Aug  1 21:16:31 2022
 Testing the ADC: 
-    To read and save data after inputtig a sine wave from a signal generator
+    To read and save data from the two channels of the ADC
 
-Adapted from 
-    'ADC_Statistics_V2'
-    'Demo_ADC_Speed_v3'
+Based on ABElectronics file "demo_adcread.py" and 'Demo_ADC_Speed_v3'
 
-@author: LCY
+Requires SPI Interface Enabled in Raspberry Pi Configuration
+ 
+Requires pre-instalation of SPI_Dev  https://github.com/doceme/py-spidev
+
+Requires ADCDACPi.py from ABElectronics
+
+@author: Caiyi Liu
 """
 from __future__ import absolute_import, division, print_function, \
                                                     unicode_literals
