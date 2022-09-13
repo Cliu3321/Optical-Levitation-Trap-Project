@@ -40,13 +40,13 @@ def stats_read(zs_samples, samples):
 	Read from ADC and measure the position of the particle
 	
 Args:
-        zs_samples: number of samples when PID is turned off
-        samples: number of samples when PID is turned on
+        zs_samples: Number of samples when PID is turned off
+        samples: Number of samples when PID is turned on
 Returns: 
 	time: An array of time data
-	position_data: an array contains the position of the particle corresponding to each time
-	zs: set point
-	u_data: A array of PID controller signal
+	position_data: An array contains the position of the particle corresponding to each time
+	zs: Set point
+	u_data: An array of PID controller signal
 	
 	'''
 .
