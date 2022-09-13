@@ -3,6 +3,7 @@
 Created on Thu Aug 18 16:01:09 2022
 
 Meaure, store and save the position of the optically trapped particle through reading from the 2-channel ADC
+Plot the particle's position as a function of time for a given number of samples
 
 Requires SPI Interface Enabled in Raspberry Pi
  
