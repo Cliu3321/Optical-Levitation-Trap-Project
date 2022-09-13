@@ -3,6 +3,9 @@
 Created on Thu Aug 24 16:01:09 2022
 
 Measure the position of the optically trapped particle with and without the PID control
+Plot the particle's position as a function of time for a given number of samples
+Plot the PID controller signal as a function of time
+Calculate the variance in the particle's position
 
 Requires SPI Interface Enabled in Raspberry Pi Configuration
  
@@ -10,7 +13,7 @@ Requires pre-instalation of SPI_Dev  https://github.com/doceme/py-spidev
 
 Requires ADCDACPi.py from ABElectronics
 
-@author: LCY
+@author: Caiyi Liu
 """
 from __future__ import absolute_import, division, print_function, \
                                                     unicode_literals
